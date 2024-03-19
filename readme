@@ -1,0 +1,37 @@
+# Acortador de Enlaces con Flask
+
+Este es un simple acortador de enlaces desarrollado en Python utilizando Flask. Permite acortar enlaces largos y redirigir a los enlaces originales cuando se accede a los enlaces acortados.
+
+## Uso
+
+1. **Generar un enlace acortado**:
+
+   - Abre el archivo `acortar.py` y coloca el enlace que deseas acortar como argumento en la función `acortar_enlace()`.
+   
+   - Ejecuta el script `acortar.py`. Esto generará un nuevo enlace acortado y lo almacenará en el archivo JSON.
+
+2. **Iniciar el servidor web**:
+
+   - Abre una terminal y ejecuta el script `app.py`. Esto iniciará un servidor web Flask que estará listo para redirigir las solicitudes a los enlaces acortados.
+
+3. **Acceder al enlace acortado**:
+
+   - Visita `http://localhost:5000/acortar/<enlace>` en tu navegador, donde `<enlace>` es el enlace original que acortaste. Esto te redirigirá automáticamente al enlace original.
+
+## Archivos y Carpetas
+
+- **acortar.py**: Script para acortar enlaces. Contiene la lógica para generar códigos únicos y almacenar los enlaces acortados en un archivo JSON.
+
+- **app.py**: Script para iniciar el servidor web Flask. Define las rutas para manejar las solicitudes de redirección a los enlaces acortados.
+
+- **codigos.json**: Archivo JSON donde se almacenan los enlaces acortados.
+
+## Requisitos
+
+- Python 3
+- Flask
+
+MI LINKENIN: https://www.linkedin.com/in/andres-ramirez-4a677023b/
+
+busco trabajo como QA
+
